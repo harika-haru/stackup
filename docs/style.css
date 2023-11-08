@@ -1,0 +1,225 @@
+
+body {
+    background-color: #F9F5F0;
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+}
+
+
+nav {
+    background-color: #ffffff; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+
+nav ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    display: block; 
+    color: #4F4C4C; 
+    text-decoration: none; 
+    padding: 15px 20px; 
+    text-align: center; 
+    transition: background-color 0.3s; 
+}
+
+
+nav a:hover {
+    color:  #306605; 
+}
+ul.left {
+    justify-content: flex-start; 
+    padding-left: 260px;
+}
+
+ul.right {
+    justify-content: flex-end; 
+    padding-right: 120px;
+}
+
+ul.right .a{
+    margin-top: 5px;
+
+}
+
+ul.right img {
+    width: 30px; 
+    height: 30px; 
+    margin: 0 5px; 
+}
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 35px;
+}
+#img1{
+    margin-left: 20rem;
+    margin-top: 3rem;
+}
+aside{
+    position: absolute;
+    top: 10rem;
+    left: 40rem;
+}
+#leaf{
+    padding-left: 28.5rem;
+    margin-top: -420px;
+}
+
+.container {
+    margin-top: 90px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.black-background {
+    width: 1540px;
+    height: 92px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: black;
+}
+
+.box {
+    width: 164px;
+    height: 70px;
+    position: absolute;
+    background: rgba(217, 217, 217, 0.20);
+    border-radius: 3px;
+    margin-top: 12px;
+}
+
+.icon {
+    width: 42px;
+    height: 32px;
+    position: absolute;
+}
+
+.text {
+    left: 48px;
+    top: 13.48px;
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    font-family: Crimson Pro;
+    font-weight: 800;
+    word-wrap: break-word;
+}
+
+.info {
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    font-family: Fira Sans;
+    font-weight: 500;
+    word-wrap: break-word;
+    margin-top: 50px ;
+}
+.container-2 {
+    width: auto;
+    height: 595.05px;
+    position: relative;
+    margin-top: 180px;
+}
+
+.background {
+    width: auto;
+    height: 534px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: white;
+}
+
+.products {
+    width: 1079px;
+    height: 525.05px;
+    left: 174px;
+    top: 70px;
+    position: absolute;
+}
+
+.title {
+    left: 371px;
+    top: 0;
+    position: absolute;
+    color: black;
+    font-size: 30px;
+    font-family: Hahmlet;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.product-box {
+    width: 238px;
+    height: 180px;
+    position: absolute;
+    background: #D9D9D9;
+    top: 10rem;
+}
+
+.product-image img {
+    width: 60%;
+    height: 60%;
+    margin-left: 15px;
+    margin-top: 50px;
+}
+
+.product-category {
+    width: 100%;
+    left: 65px;
+    top: 200px;
+    position: absolute;
+    color: #6C6C6C;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.product-name {
+    width: 100%;
+    left: 55px;
+    top: 220px;
+    position: absolute;
+    color: black;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.product-price {
+    width: 100%;
+    left: 75px;
+    top: 238px;
+    position: absolute;
+    color: black;
+    font-size: 14px;
+    font-family: Kaisei Opti;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+#top-leaf{
+    margin-left: 30rem;
+    margin-top: 95px;
+}
+#bottom-leaf{
+    margin-left: 30rem;
+    margin-top: 40rem;
+}
