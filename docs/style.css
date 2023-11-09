@@ -319,7 +319,7 @@ aside {
 }
 .container-3 {
     width: auto;
-    height: 595.05px;
+    height: 650px;
     position: relative;
     background-color: #ffffff;
 }
@@ -330,4 +330,66 @@ aside {
     top: 0;
     position: absolute;
     background: white;
+}
+.product-box-2 {
+    width: 238px;
+    height: 320px;
+    position: absolute;
+    background: #D9D9D9;
+    top: 10rem;
+}
+.product-category-2 {
+    width: 100%;
+    left: 70px;
+    top: 340px;
+    position: absolute;
+    color: #6C6C6C;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.product-name-2 {
+    width: 100%;
+    left: 73px;
+    top: 365px;
+    position: absolute;
+    color: black;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.product-price-2 {
+    width: 100%;
+    left: 75px;
+    top: 388px;
+    position: absolute;
+    color: black;
+    font-size: 14px;
+    font-family: Kaisei Opti;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+.customer-review{
+    margin-top: 50px;
+}
+.box3{
+    width: 500px;
+    height: 500px;
+}
+.customer-review p{
+    padding-top: 70px;
+    margin-left:20px
+}
+footer{
+    width: auto;
+    height: 120px;
+    background-color: #000823;
+}
+#social-links{
+    margin-left: 70rem;
+    padding-top: -40px;
 }
