@@ -10,6 +10,7 @@
 </head>
 
 <body>
+
     <nav>
         <ul class="left">
             <li><a href="#">Everything</a></li>
@@ -23,86 +24,160 @@
         <ul class="right">
             <li><a href="#" style="margin-top: 10px;">About</a></li>
             <li><a href="#" style="margin-top: 10px;">Contact</a></li>
-            <li><a href="#"><img src="cart.png" alt="Image 1"></a></li>
+            <li><a href="#"><button id="open-cart-button">Cart</button></a></li>
             <li><a href="#"><img src="profile.png" alt="Image 2"></a></li>
         </ul>
     </nav>
     <div class="logo">
-        <img src="Logo.png" onclick="window.location.href='index.html'"  alt="Logo">
+        <img src="Logo.png" onclick="window.location.href='index.html'" alt="Logo">
     </div>
+
+    <div class="container">
+        <div class="right-panel" id="cart-panel">
+            <button id="close-cart-button">Close</button>
+            <h2>Shopping Cart</h2>
+            <ul id="cart-items">
+                <!-- Cart items will be displayed here -->
+            </ul>
+            <p>Total: $<span id="cart-total">0.00</span></p>
+            <button id="checkout-button" onclick="href=''">Checkout</button>
+        </div>
+    </div>
+<!--Skincare-->
     <div class="rectangle">
         <p style="margin-left: 2rem; font-size: 24px;">Skincare Products</p>
     </div>
     <div class="skin-care">
-        <div class="item-box" style="left: 0; margin-left: -357px";>
-            <div class="item-image">
-                <img src="skincare1.jpg" alt="Skincare Product 1" >
+
+        <div class="item-box" data-name="Moisturizing Cream" data-price="30" style="left: 0; margin-left: -357px">
+            <div class="item-image"><img src="skincare1.jpg" alt="Skincare Product 1">
             </div>
-            <div class="item-name">Moisturizing Cream</div>
-            <div class="item-price">$30</div>
-            <button class="add-cart" style="margin-left: 70px;">ADD CART</button>
+            <span id="item-name">Moisturizing Cream</span><br>
+            <span id="item-price">$30</span><br>
+            <button class="add-to-cart" style="margin-left: 70px;">ADD CART</button>
         </div>
-        <div class="item-box" style="left: 120px;">
-            <div class="item-image">
-                <img src="skinproduct2.jpg" alt="Skincare Product 2" >
+
+        <div class="item-box" style="left: 120px" data-name="Anti-Aging Serum" data-price="25">
+            <div class="item-image"><img src="skinproduct2.jpg" alt="Skincare Product 2">
             </div>
-            <div class="item-name">Anti-Aging Serum</div>
-            <div class="item-price">$25</div>
-            <button class="add-cart" style="margin-left: 70px;">ADD CART</button>
+            <span id="item-name">Anti-Aging Serum</span><br>
+            <span id="item-price">$25</span><br>
+            <button class="add-to-cart" style="margin-left: 70px;">ADD CART</button>
         </div>
-        <div class="item-box" style="left: 250px;">
-            <div class="item-image">
-                <img src="skinproduct3.jpg" alt="Skincare Product 3" >
+
+        <div class="item-box" style="left: 250px" data-name="Sunscreen Lotion" data-price="20">
+            <div class="item-image"><img src="skinproduct3.jpg" alt="Skincare Product 3">
             </div>
-            <div class="item-name">Sunscreen Lotion</div>
-            <div class="item-price">$20</div>
-            <button class="add-cart" style="margin-left: 70px;">ADD CART</button>
+            <span id="item-name">Sunscreen Lotion</span><br>
+            <span id="item-price">$20</span><br>
+            <button class="add-to-cart" style="margin-left: 70px;">ADD CART</button>
         </div>
-        <div class="item-box" style="left: 350px;">
-            <div class="item-image">
-                <img src="skincare4.jpg"alt="Skincare Product 4">
-            </div>
-            <div class="item-name">Cleansing Gel</div>
-            <div class="item-price">$15</div>
-            <button class="add-cart" style="margin-left: 70px;">ADD CART</button>
+
+        <div class="item-box" style="left: 350px" data-name="Cleansing Gel" data-price="15">
+            <div class="item-image"><img src="skincare4.jpg" alt="Skincare Product 4"></div>
+            <span id="item-name">Cleansing Gel</span><br>
+            <span id="item-price">$15</span><br>
+            <button class="add-to-cart" style="margin-left: 70px;">ADD CART</button>
         </div>
     </div>
     <br> <br>
     <div class="skin-care">
-        <div class="item-box" style="left: 0; margin-left: -357px";>
-            <div class="item-image">
-                <img src="skincare2.jpg" alt="Skincare Product 1" >
-            </div>
-            <div class="item-name">Moisturizing Cream</div>
-            <div class="item-price">$30</div>
-            <button class="add-cart" style="margin-left: 70px;">ADD CART</button>
+        <div class="item-box" style="left: 0; margin-left: -357px" ;>
+            <div class="item-image"><img src="skincare2.jpg" alt="Skincare Product 1"></div>
+            <span id="item-name">Cleansing Gel</span><br>
+            <span id="item-price">$15</span><br>
+            <button class="add-to-cart" style="margin-left: 70px;">ADD CART</button>
         </div>
+
         <div class="item-box" style="left: 120px;">
-            <div class="item-image">
-                <img src="skincare5.jpg" alt="Skincare Product 2" >
-            </div>
-            <div class="item-name">Anti-Aging Serum</div>
-            <div class="item-price">$25</div>
-            <button class="add-cart" style="margin-left: 70px;">ADD CART</button>
+            <div class="item-image"><img src="skincare5.jpg" alt="Skincare Product 2"></div>
+            <span id="item-name">Body Srub Cardomon+Coffee</span><br>
+            <span id="item-price">$15</span><br>
+            <button class="add-to-cart" style="margin-left: 70px;">ADD CART</button>
         </div>
+
         <div class="item-box" style="left: 250px;">
-            <div class="item-image">
-                <img src="skinproduct6.jpg" alt="Skincare Product 3" >
-            </div>
-            <div class="item-name">Sunscreen Lotion</div>
-            <div class="item-price">$20</div>
-            <button class="add-cart" style="margin-left: 70px;">ADD CART</button>
+            <div class="item-image"><img src="skinproduct6.jpg" alt="Skincare Product 3"></div>
+            <span id="item-name">Cleansing Gel</span><br>
+            <span id="item-price">$15</span><br>
+            <button class="add-to-cart" style="margin-left: 70px;">ADD CART</button>
         </div>
+
         <div class="item-box" style="left: 350px;">
-            <div class="item-image">
-                <img src="skincare7.jpg"alt="Skincare Product 4">
-            </div>
-            <div class="item-name">Cleansing Gel</div>
-            <div class="item-price">$15</div>
-            <button class="add-cart" style="margin-left: 70px;">ADD CART</button>
+            <div class="item-image"><img src="skincare7.jpg" alt="Skincare Product 4"></div>
+            <span id="item-name">Cleansing Gel</span><br>
+            <span id="item-price">$15</span><br>
+            <button class="add-to-cart" style="margin-left: 70px;">ADD CART</button>
+        </div>
+    </div><br><br>
+    <br> <br>
+
+    <!--Wall Decor-->
+    <br>
+    <div class="rectangle">
+        <p style="margin-left: 8rem; font-size: 24px;">Wall Decor</p>
+    </div>
+    <br>
+    <div class="skin-care">
+        <div class="item-box" data-name="Moisturizing Cream" data-price="30" style="left: 0; margin-left: -357px" ;>
+            <div class="item-image"><img src="decor1.jpg" alt="Skincare Product 1"></div>
+            <span id="item-name">Cleansing Gel</span><br>
+            <span id="item-price">$15</span><br>
+            <button class="add-to-cart" style="margin-left: 70px;">ADD CART</button>
+        </div>
+
+        <div class="item-box" style="left: 120px;">
+            <div class="item-image"><img src="decor2.jpg" alt="Skincare Product 2"></div>
+            <span id="item-name">Cleansing Gel</span><br>
+            <span id="item-price">$15</span><br>
+            <button class="add-to-cart" style="margin-left: 70px;">ADD CART</button>
+        </div>
+
+        <div class="item-box" style="left: 250px;">
+            <div class="item-image"><img src="decor3.jpg" alt="Skincare Product 3"></div>
+            <span id="item-name">Cleansing Gel</span><br>
+            <span id="item-price">$15</span><br>
+            <button class="add-to-cart" style="margin-left: 70px;">ADD CART</button>
+        </div>
+
+        <div class="item-box" style="left: 350px;">
+            <div class="item-image"><img src="decor4.jpg" alt="Skincare Product 4"></div>
+            <span id="item-name">Cleansing Gel</span><br>
+            <span id="item-price">$15</span><br>
+            <button class="add-to-cart" style="margin-left: 70px;">ADD CART</button>
         </div>
     </div>
-    
+    <br> <br>
+    <div class="skin-care">
+        <div class="item-box" style="left: 0; margin-left: -357px" ;>
+            <div class="item-image"><img src="decor8.jpg" alt="Skincare Product 1"></div>
+            <span id="item-name">Cleansing Gel</span><br>
+            <span id="item-price">$15</span><br>
+            <button class="add-to-cart" style="margin-left: 70px;">ADD CART</button>
+        </div>
+
+        <div class="item-box" style="left: 120px;">
+            <div class="item-image"><img src="decor5.jpg" alt="Skincare Product 2"></div>
+            <span id="item-name">Cleansing Gel</span><br>
+            <span id="item-price">$15</span><br>
+            <button class="add-to-cart" style="margin-left: 70px;">ADD CART</button>
+        </div>
+
+        <div class="item-box" style="left: 250px;">
+            <div class="item-image"><img src="decor6.jpg" alt="Skincare Product 3"></div>
+            <span id="item-name">Cleansing Gel</span><br>
+            <span id="item-price">$15</span><br>
+            <button class="add-to-cart" style="margin-left: 70px;">ADD CART</button>
+        </div>
+        
+        <div class="item-box" style="left: 350px;">
+            <div class="item-image"><img src="decor7.jpg" alt="Skincare Product 4"></div>
+            <span id="item-name">Cleansing Gel</span><br>
+            <span id="item-price">$15</span><br>
+            <button class="add-to-cart" style="margin-left: 70px;">ADD CART</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>

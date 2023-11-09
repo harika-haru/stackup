@@ -16,7 +16,12 @@
     margin-top: 8rem;
     margin: 5rem;
 }
-
+#item-price{
+    margin-left: 100px;
+}
+#item-name{
+    margin-left: 30px;
+}
 .item-box {
     width: 228px;
     height: 310px;
@@ -31,31 +36,48 @@
     margin: 0 auto;
 }
 
-.item-name {
-    width: 100%;
-    text-align: center;
-    color: black;
-    font-size: 18px;
-    font-family: Inter;
-    font-weight: 400;
-    word-wrap: break-word;
-    margin-top: 27px;
+.add-to-cart{
+    margin-top: 10px;
+    border-color: #607A43;
+    border-radius: 3px;
+    background-color: #607A43;
+    color: white;
 }
 
-.item-price {
-    width: 100%;
-    text-align: center;
-    color: black;
-    font-size: 14px;
-    font-family: Kaisei Opti;
-    font-weight: 700;
-    word-wrap: break-word;
-    margin-top: 15px;
+.container {
+    display: flex;
+   
 }
-.add-cart{
+
+#cart-panel {
+    display: none;
+    width: 300px;
+    background: #A3C399;
+    z-index: 1;
+    padding: 20px;
+    position: fixed;
+    right: 0;
+    top: 3.99rem;
+    bottom: 0;
+    font-size: 20px;
+}
+
+#open-cart-button {
+    background-color: white;
+    color: 4F4C4C;
+    border: none;
     margin-top: 10px;
-    border-color: #8BC34A;
-    border-radius: 3px;
-    background-color: #8BC34A;
+    cursor: pointer;
+}
+#close-cart-button{
+    background: #bc2828;
+    font-size: 15px;
     color: white;
+    border: none;
+}
+#checkout-button{
+    background: #003988;
+    font-size: 15px;
+    color: white;
+    border: none;
 }
