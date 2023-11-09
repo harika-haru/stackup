@@ -1,0 +1,61 @@
+.rectangle{
+    width: 300px;
+    height: 50px;
+    background-color: #7ABC28;
+    color: white;
+    margin-top: 3rem;
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.skin-care {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8rem;
+    margin: 5rem;
+}
+
+.item-box {
+    width: 228px;
+    height: 310px;
+    border: 1px solid #D9D9D9; 
+    margin: 10px;
+    position: relative;
+}
+
+.item-image img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.item-name {
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-top: 27px;
+}
+
+.item-price {
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-family: Kaisei Opti;
+    font-weight: 700;
+    word-wrap: break-word;
+    margin-top: 15px;
+}
+.add-cart{
+    margin-top: 10px;
+    border-color: #8BC34A;
+    border-radius: 3px;
+    background-color: #8BC34A;
+    color: white;
+}
