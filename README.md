@@ -28,4 +28,4 @@ You can use tools like XAMPP, WampServer, or the built-in server in Visual Studi
 
 Deployment: Choose a hosting provider to deploy your website. Options include platforms like GitHub Pages, Netlify, Vercel, or traditional web hosting services.
 ## How to Run
-Click here: https://doteco.netlify.app/
+Click here: https://harika-haru.github.io/stackup/docs/index.html
