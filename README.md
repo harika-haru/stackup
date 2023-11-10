@@ -19,9 +19,13 @@ astraea
 Git - Version 2.42.0
 
 ## How to configure
-Environment Setup:Ensure you have a working web development environment. You can use tools like Visual Studio Code, Sublime Text, or any other code editor of your choice.
-Set up a local server to run and test your project. You can use tools like XAMPP, WampServer, or the built-in server in Visual Studio Code.
+1. Environment Setup: Ensure you have a working web development environment. You can use tools like Visual Studio Code, Sublime Text, or any other code editor of your choice.
+You can use tools like XAMPP, WampServer, or the built-in server in Visual Studio Code.
 
-HTML, CSS, and JavaScript Files:Organize your project structure with separate folders for HTML, CSS, and JavaScript files. This will make your project modular and maintainable.
+2. HTML, CSS, and JavaScript Files: Organize your project structure with separate folders for HTML, CSS, and JavaScript files. This will make your project modular and maintainable.
+
+3. Styling and Responsive Design: Implement responsive design practices to ensure your website looks good on various devices. Use CSS media queries for responsiveness.
+
+Deployment: Choose a hosting provider to deploy your website. Options include platforms like GitHub Pages, Netlify, Vercel, or traditional web hosting services.
 ## How to Run
 Click here: https://doteco.netlify.app/
