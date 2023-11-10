@@ -12,16 +12,19 @@
 </head>
 
 <body>
+    <script  src="script.js"></script>
     <nav>
         <ul class="left">
             <li><a href="#">Everything</a></li>
             <li><a href="#">Groceries</a></li>
-            <li><a href="#">Juice</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Products</a>
+            </li>
         </ul>
         <ul class="right">
             <li><a href="#" style="margin-top: 10px;">About</a></li>
             <li><a href="#" style="margin-top: 10px;">Contact</a></li>
-            <li><a href="#"><img src="cart.png" alt="Image 1"></a></li>
+            <li><a href="#"><button id="open-cart-button">Cart</button></a></li>
             <li><a href="#"><img src="profile.png" alt="Image 2"></a></li>
         </ul>
     </nav>
@@ -34,9 +37,8 @@
         <img src="leaf1.png" alt="image 1">
         <p style="font-size: 26px; font-family: Alatis; margin-top: -10px;">Best Quality Products</p>
         <h1 style="font-size: 60px; width: 70%; letter-spacing: 5px; margin-top: -10px;">Join The Organic Movement!</h1>
-        <button class="btn-shop" style="margin-left: 70px;" onclick="window.location.href='main.html'">SHOP NOW!
-            <img style="margin-right: 5px;" src="Right Arrow.png">
-        </button>
+        <button class="btn-shop" style="margin-left: 190px; font-size: 20px;"
+        onclick="window.location.href='main.html'">SHOP NOW!</button>
         <img src="leaf2.png" width="50%" height="60%" id="leaf">
     </aside>
     <div class="container-1">
