@@ -13,12 +13,15 @@ astraea
 ## Link to product walkthrough
 [link to video](https://youtu.be/cJgCJCrlGc8)
 ## How it Works?
-1. Explaining the working of project
-2. Embed video of project demo
+1. .ECO is an eco-friendly e-commerce website crafted with HTML, CSS, and JavaScript, embodying a harmonious blend of sustainability and style. The platform offers a diverse array of products, ranging from clothing to kitchen essentials and wall decoration items. This project aims to provide users with a seamless and enjoyable online shopping experience while prioritizing sustainable choices. .ECO stands as a testament to the idea that consumers can make environmentally conscious decisions without compromising on style, fostering a new era of responsible consumerism. 
+2. Embed video of project demo(https://github.com/harika-haru/stackup/assets/90541715/d3d046e9-8919-4538-aaa3-954ef3e97360)
 ## Libraries used
 Git - Version 2.42.0
 
 ## How to configure
-Instructions for setting up project
+Environment Setup:Ensure you have a working web development environment. You can use tools like Visual Studio Code, Sublime Text, or any other code editor of your choice.
+Set up a local server to run and test your project. You can use tools like XAMPP, WampServer, or the built-in server in Visual Studio Code.
+
+HTML, CSS, and JavaScript Files:Organize your project structure with separate folders for HTML, CSS, and JavaScript files. This will make your project modular and maintainable.
 ## How to Run
-Instructions for running
+Click here: 
