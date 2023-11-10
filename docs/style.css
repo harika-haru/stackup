@@ -71,7 +71,7 @@ ul.right img {
     margin-top: 3rem;
 }
 
-aside {
+.side {
     position: absolute;
     top: 10rem;
     left: 40rem;
@@ -416,5 +416,12 @@ footer{
     border: none;
     border-radius: 4px;
     padding: 5px 10px;
+    cursor: pointer;
+}
+#open-cart-button {
+    background-color: white;
+    color: 4F4C4C;
+    border: none;
+    margin-top: 10px;
     cursor: pointer;
 }
